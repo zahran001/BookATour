@@ -1,4 +1,5 @@
 # Node.js, Express.js, React, Vite, MongoDB, PayPal, JSON Web Token
+### Tour booking website model for the Office of Campus Visits
 ![Screenshot (14)](https://github.com/zahran001/BookATour/assets/114562123/32aa899f-41bd-498b-a506-9759b908caba)
 ![Screenshot (15)](https://github.com/zahran001/BookATour/assets/114562123/b43dfe79-76ae-4ed9-8a54-07d4f166a0cd)
 ![Screenshot (16)](https://github.com/zahran001/BookATour/assets/114562123/34036df0-9efa-4ecd-b472-5ec359d149af)
