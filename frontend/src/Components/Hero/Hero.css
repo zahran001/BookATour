@@ -1,0 +1,73 @@
+/* .hero{
+    height: 100vh;
+    background: white;
+    display: flex;
+
+}
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-left: 120px;
+    line-height: 1.1;
+}
+
+.hero-left p{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.hero-icon img{
+    width: 250px;
+
+
+} */
+
+
+.hero {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Example primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+  
