@@ -8,7 +8,8 @@ const path = require("path"); // To access the backend directory
 const cors = require("cors");
 
 app.use(express.json()); // request from response will be passed through json
-app.use(cors()); // reactJS project will connect to express app on port 4000
+app.use(cors()); 
+// reactJS project will connect to express app on port 4000
 
 // creating a MongoDB Atlas database connection
 mongoose.connect("mongodb+srv://zykkhanbd:bookatour@cluster0.fkpivbc.mongodb.net/bookatour");
