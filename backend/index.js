@@ -8,10 +8,13 @@ const path = require("path"); // To access the backend directory
 const cors = require("cors");
 
 app.use(express.json()); // request from response will be passed through json
-app.use(cors()); // reactJS project will connect to express app on port 4000
+app.use(cors()); 
+
+// reactJS project will connect to express app on port 4000
 
 // creating a MongoDB Atlas database connection
 mongoose.connect("mongodb+srv://zykkhanbd:bookatour@cluster0.fkpivbc.mongodb.net/bookatour");
+
 // API endpoint
 app.get("/",(req,res)=>{
     res.send("Express app is running")
@@ -40,7 +43,7 @@ const upload = multer({storage:storage})
 // endpoint for uploading images
 app.use('/images',express.static('upload/images'))
 app.post("/upload",upload.single('product'),(req,res)=>{
-    res.json({
+    res.json({ 
         success:1,
         image_url:`http://localhost:${port}/images/${req.file.filename}`
     })
@@ -226,7 +229,7 @@ app.post('/login',async (req,res)=>{
 
     } 
 
-// cart
+// routes
 app.post('/addtocart',fetchUser, async (req,res)=>{
     console.log("added",req.body.itemId)
     let userData = await Users.findOne({_id:req.user.id});
